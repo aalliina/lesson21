@@ -11,6 +11,7 @@ body{
 }
 header{
     background-color: rgb(148, 148, 148);
+    width: 15%;
 }
 header .nav ul li a{
     padding: 10px;
