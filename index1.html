@@ -7,14 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Paragraph1</p>
+    <!-- <p>Paragraph1</p>
     <p>Paragraph2</p>
     <p>Paragraph3</p>
 
     <button id="hide">Hide</button>
     <button id="show">Show</button>
 
-    <script src="jquery-3.6.0.js"></script>
+    
     <script>
         $(document).ready(function(){
             $('#hide').click(function() {
@@ -26,6 +26,22 @@
             $('p').show(1000);
         })
         })
+ </script> -->
+
+    <p>Paragraph1</p>
+    <p>Paragraph2</p>
+    <p>Paragraph3</p>
+<script src="jquery-3.6.0.js"></script>
+    <button id="toggle">hide/show</button>
+
+    <script>
+  $(document).ready(function(){
+            $('#toggle').click(function() {
+            $('p').slideToggle(1000);
+    
+        })
+        })
     </script>
+   
 </body>
 </html>
